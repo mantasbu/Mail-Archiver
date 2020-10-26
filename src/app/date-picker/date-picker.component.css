@@ -1,0 +1,31 @@
+img {
+    height: 25px;
+    width: 25px;
+}
+
+input {
+    height: 30px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.date-picker-container input[type=text] {
+    padding-left: 36px;
+}
+
+.date-picker-container {
+    position: relative;
+}
+
+.date-picker-container img.calendar {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.date-picker-container img.search {
+    position: absolute;
+    left: 190px;
+    top: 5px;
+    background-color: lightgray;
+}
